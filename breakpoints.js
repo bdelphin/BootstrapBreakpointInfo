@@ -19,21 +19,21 @@ function handleResize() {
 
     if(window.innerWidth < 576) {
         // XS
-        breakpoint_size.innerText = window.innerWidth + "px (<576px) : size xs";
+        breakpoint_size.innerText = window.innerWidth + "px (<576px) : size <strong>xs</strong>";
     } else if(window.innerWidth < 768) {
         // SM
-        breakpoint_size.innerText = window.innerWidth + "px (≥576px) : size sm";
+        breakpoint_size.innerText = window.innerWidth + "px (≥576px) : size <strong>sm</strong>";
     } else if(window.innerWidth < 992) {
         // MD
-        breakpoint_size.innerText = window.innerWidth + "px (≥768px) : size md";
+        breakpoint_size.innerText = window.innerWidth + "px (≥768px) : size <strong>md</strong>";
     } else if(window.innerWidth < 1200) {
         // LG
-        breakpoint_size.innerText = window.innerWidth + "px (≥992px) : size lg";
+        breakpoint_size.innerText = window.innerWidth + "px (≥992px) : size <strong>lg</strong>";
     } else if(window.innerWidth < 1400) {
         // XL
-        breakpoint_size.innerText = window.innerWidth + "px (≥1200px) : size xl";
+        breakpoint_size.innerText = window.innerWidth + "px (≥1200px) : size <strong>xl</strong>";
     } else {
         // XXL
-        breakpoint_size.innerText = window.innerWidth + "px (≥1400px) : size xxl";
+        breakpoint_size.innerText = window.innerWidth + "px (≥1400px) : size <strong>xxl</strong>";
     }
 }
