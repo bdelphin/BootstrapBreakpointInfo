@@ -11,7 +11,7 @@ BootstrapBreakpointInfo is a small JS script to display the current Bootstrap br
 Place the following line on the bottom of your webpage, right before the closing `</body>` tag : 
 
 ```html
-<script src="https://bdelphin.github.io/bootstrapbreakpointinfo/breakpoints.js"></script>
+<script src="https://bdelphin.github.io/BootstrapBreakpointInfo/breakpoints.js"></script>
 ```
 
 Reload, that's it !
