@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## BootstrapBreakpointInfo
 
-You can use the [editor on GitHub](https://github.com/bdelphin/BootstrapBreakpointInfo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> Wow, such a long repo name. But what does this thing do ?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+BootstrapBreakpointInfo is a small JS script to display the current Bootstrap breakpoint ([more info here](https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints)) directly on the bottom right corner of any webpage.
 
-### Markdown
+![demo](screenshot.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### How to use ?
 
-```markdown
-Syntax highlighted code block
+Place the following line on the bottom of your webpage, right before the closing `</body>` tag : 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```html
+<script src="https://bdelphin.github.io/bootstrapbreakpointinfo/breakpoints.js"></script>
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Reload, that's it !
 
-### Jekyll Themes
+### Contributions & issues
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bdelphin/BootstrapBreakpointInfo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feel free to make a pull request if you want to improve this thing (it just took a few minutes to make, so I'm sure it can be improved a lot), and if you encounter any issue please use [the appropriate section on the Github Repo](https://github.com/bdelphin/BootstrapBreakpointInfo/issues) !
